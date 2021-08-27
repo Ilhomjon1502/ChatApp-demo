@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/usersAndGroupFragment">
+
+    <fragment
+        android:id="@+id/usersAndGroupFragment"
+        android:name="com.example.hom64chatapp.UsersAndGroupFragment"
+        android:label="fragment_users_and_group"
+        tools:layout="@layout/fragment_users_and_group" />
+    <fragment
+        android:id="@+id/userLstFragment"
+        android:name="com.example.hom64chatapp.UserLstFragment"
+        android:label="fragment_user_lst"
+        tools:layout="@layout/fragment_user_lst" />
+    <fragment
+        android:id="@+id/groupListFragment"
+        android:name="com.example.hom64chatapp.GroupListFragment"
+        android:label="fragment_group_list"
+        tools:layout="@layout/fragment_group_list" />
+    <fragment
+        android:id="@+id/messageUserWriteFragment"
+        android:name="com.example.hom64chatapp.MessageUserWriteFragment"
+        android:label="fragment_message_user_write"
+        tools:layout="@layout/fragment_message_user_write" />
+    <fragment
+        android:id="@+id/messageGroupFragment"
+        android:name="com.example.hom64chatapp.MessageGroupFragment"
+        android:label="fragment_message_group"
+        tools:layout="@layout/fragment_message_group" />
+</navigation>

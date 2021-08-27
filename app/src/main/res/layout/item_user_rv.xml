@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="10dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user_rv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_color="@color/black"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/online_liner"
+        app:layout_constraintTop_toTopOf="@id/image_user_rv"
+        app:layout_constraintBottom_toBottomOf="@id/image_user_rv"
+        app:layout_constraintRight_toRightOf="@id/image_user_rv"
+        app:layout_constraintLeft_toLeftOf="@id/image_user_rv"
+        android:orientation="vertical"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:visibility="invisible"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintVertical_bias="0.99"
+        android:background="@drawable/ic_online_bacground">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_online"
+            android:layout_margin="3dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_display_nae_user_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/txt_last_message_user_rv"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintRight_toLeftOf="@id/txt_time_user_rv"
+        app:layout_constraintLeft_toRightOf="@id/image_user_rv"/>
+
+    <TextView
+        android:id="@+id/txt_time_user_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_last_message_user_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:textSize="12sp"
+        android:text="Hozircha yozishuv bo'sh"
+        android:textColor="#2675EC"
+        app:layout_constraintTop_toBottomOf="@id/txt_display_nae_user_rv"
+        app:layout_constraintLeft_toRightOf="@id/image_user_rv"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

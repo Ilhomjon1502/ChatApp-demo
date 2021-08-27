@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/card_view_background.xml" value="0.11354166666666667" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/edit_text_background.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/edit_text_in_linear.xml" value="0.11354166666666667" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/fon_profile_user.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_add.xml" value="0.1125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_back.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_background_messages_to.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_baseline_private.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.11354166666666667" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_chat_bacgroud_to.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_chat_bacground_from.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_chat_background_from.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_chat_backgrounds.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_chat_backgrounds_to.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_direct.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_edt_mess_fon.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11354166666666667" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_online.xml" value="0.11354166666666667" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_online_bacground.xml" value="0.11354166666666667" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/ic_plus.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/tab_bacground.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/drawable/tab_bacground_2.xml" value="0.2203125" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/activity_sign.xml" value="0.17980072463768115" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/fragment_group_list.xml" value="0.18" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/fragment_message_group.xml" value="0.14" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/fragment_message_user_write.xml" value="0.16" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/fragment_user_lst.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/fragment_users_and_group.xml" value="0.14" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/item_dialog_add_group.xml" value="0.19701086956521738" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/item_from_message.xml" value="0.18" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/item_from_messages.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/item_rv_groups.xml" value="0.20416666666666666" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/item_to_message.xml" value="0.2" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/item_user_rv.xml" value="0.22" />
+        <entry key="..\:/androidHomeworkPDP/Hom64ChatApp/app/src/main/res/layout/tab_item.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
